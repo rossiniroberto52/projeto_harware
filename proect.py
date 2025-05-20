@@ -208,5 +208,5 @@ try:
 except:
     GPIO.cleanup()
     lcd.clear()
-    lcd.message("Goodbye! ERROR")
+    lcd.message("ERROR")
     time.sleep(2)
